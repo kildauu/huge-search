@@ -1,0 +1,93 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f1f1;
+	color: #a9a9a9;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.searchbar {
+	min-height: 60px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+input[type="text"] {
+	font-size: 90px;
+	font-weight: bold;
+	width: 80%;
+	border: none;
+	background-color: #f1f1f1;
+	color: #ec5a62;
+}
+
+input[type="image"] {
+	width: 7.5%;
+}
+
+
+div.people-list,
+div.popular-list,
+div.recent-list {
+	width: 33%;
+}
+
+div.people-list,
+div.popular-list,
+div.recent-list {
+	float: left;
+}
+
+h3.list-header {
+	text-transform: uppercase;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+	background-color: #ebebed;
+	margin-bottom: 10px;
+	min-height: 70px;
+	width: 85%;
+	padding: 10px 10px 10px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+li:hover {
+	color: #ec5a62;
+	background-color: rgba(118,117,128,0.1);
+	cursor: pointer;
+}
+
+img.avatar {
+	margin-right: 5px;
+	float: left;
+}
+
+ul.people li img.avatar {
+	border-radius: 50%;
+}
+
+input:focus {
+	outline: 3px solid rgba(118,117,128,0.1);
+}
+
